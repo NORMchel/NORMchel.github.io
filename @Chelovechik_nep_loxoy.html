@@ -4,27 +4,6 @@
 <title>NORM | INFORMATION</title>
 </head>
 <style>
- li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none
- }
-   
- .op {
-  float: left;
- }
- .list-vi {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
- }
  section {
  background-color: white;
  padding: 30px;
@@ -37,6 +16,7 @@
   left: 30px;
  height: 10px;
  }
+ 
  header {
   background-color: black;
   padding: 35px;
@@ -47,12 +27,21 @@
 .logo {
  text-align: center;
  }
+h3 {
+color: grey;
+}
  .l::after {
-  content: url(Telegram.jpg);
+  content: url(Telegram.jpg)
  }
- .list {
- list-style-type: none;
+ 
+ .line {
+  color: black;
+  }
+ 
+.box {
+  border: 2px solid black;
  }
+ 
 .back {
  z-index: 0;
  }
@@ -61,9 +50,9 @@
 
 <div><header>
 <div class="logo"><img src="pic (1).png" class="back">
-<nav><ul class="list-vi"><h4><li class="op"><a href="#bio">Обо мне</a></li>  <li class="op"><a href="#Norm">Проекты NORM</a></li>  <li class="op"><a href="https://normchel.github.io/@NORMchel_BOT.html">『ℕ𝕆ℝ𝕄』- ℙ𝕝𝕒𝕪𝔹𝕠𝕥</a></li></h4></div>
+<nav><h3><a href="#bio">Обо мне</a><a style="line"> |</a> <a href="#Norm">Проекты NORM</a> | <a href="https://normchel.github.io/@NORMchel_BOT.html">『ℕ𝕆ℝ𝕄』- ℙ𝕝𝕒𝕪𝔹𝕠𝕥</a> </h3></nav></div>
 </header>
-<section>
+<section class="box">
  <a name="bio"><h2 align=center>Кто я?</h2></a>
  <ul>
  <li><b><i>Имя:</i></b> Michael</li>
